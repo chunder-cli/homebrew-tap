@@ -1,18 +1,18 @@
 class Chunder < Formula
   desc "Download, search, clip, and even WATCH YouTube videos in your terminal"
-  homepage "https://github.com/blyncnov/chunder"
-  url "https://github.com/blyncnov/chunder/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9af7c272fcfd794a30a6084279ea7be7c16275921149604824d9adfcdd4ebcfd"
+  homepage "https://github.com/chunder-cli/chunder"
+  url "https://github.com/chunder-cli/chunder/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "89b3f2f1230458e451c2035b831c34ab7bab0ab33670702f475dcf8a356fbd67"
   license "MIT"
-  head "https://github.com/blyncnov/chunder.git", branch: "main"
+  head "https://github.com/chunder-cli/chunder.git", branch: "main"
 
   depends_on "go" => :build
 
   def install
     ldflags = %W[
       -s -w
-      -X github.com/blyncnov/chunder/cmd.version=v#{version}
-      -X github.com/blyncnov/chunder/cmd.commit=homebrew
+      -X github.com/chunder-cli/chunder/cmd.version=v#{version}
+      -X github.com/chunder-cli/chunder/cmd.commit=homebrew
     ].join(" ")
     system "go", "build", *std_go_args(ldflags: ldflags)
 

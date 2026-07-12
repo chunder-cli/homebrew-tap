@@ -1,17 +1,17 @@
-# blyncnov's Homebrew Tap
+# chunder-cli Homebrew Tap
 
-Homebrew formulae for [blyncnov](https://github.com/blyncnov)'s tools.
+Homebrew formulae for [chunder-cli](https://github.com/chunder-cli)'s tools.
 
 ## Install
 
 ```sh
-brew install blyncnov/tap/chunder
+brew install chunder-cli/tap/chunder
 ```
 
 Or tap first, then install:
 
 ```sh
-brew tap blyncnov/tap
+brew tap chunder-cli/tap
 brew install chunder
 ```
 
@@ -19,4 +19,4 @@ brew install chunder
 
 | Formula | Description |
 |---|---|
-| [`chunder`](https://github.com/blyncnov/chunder) | 🤮 Download, search, clip, and even WATCH YouTube videos in your terminal |
+| [`chunder`](https://github.com/chunder-cli/chunder) | 🤮 Download, search, clip, and even WATCH YouTube videos in your terminal |
