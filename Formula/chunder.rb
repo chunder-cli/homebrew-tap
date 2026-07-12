@@ -1,8 +1,8 @@
 class Chunder < Formula
   desc "Download, search, clip, and even WATCH YouTube videos in your terminal"
   homepage "https://github.com/chunder-cli/chunder"
-  url "https://github.com/chunder-cli/chunder/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "89b3f2f1230458e451c2035b831c34ab7bab0ab33670702f475dcf8a356fbd67"
+  url "https://github.com/chunder-cli/chunder/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "bdf44bb3edc5cfdc576939a9dc0804ebbadbcc6814f065412712e0a6d341090f"
   license "MIT"
   head "https://github.com/chunder-cli/chunder.git", branch: "main"
 
