@@ -19,4 +19,4 @@ brew install chunder
 
 | Formula | Description |
 |---|---|
-| [`chunder`](https://github.com/chunder-cli/chunder) | 🤮 Download, search, clip, and even WATCH YouTube videos in your terminal |
+| [`chunder`](https://github.com/chunder-cli/chunder) | Download, search, clip, and even WATCH YouTube videos in your terminal |
